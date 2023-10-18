@@ -64,3 +64,7 @@ afterEvaluate {
     println("-------------------------------All properties--------------------------------")
     extra.properties.forEach(::println)
 }
+
+dependencies {
+    implementation("io.arrow-kt:arrow-core:1.2.0")
+}
