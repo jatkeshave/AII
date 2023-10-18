@@ -55,7 +55,7 @@ tasks {
     }
 
     runIde {
-//        ideDir.set(file(project.extra["androidStudioPath"] as String))
+        ideDir.set(file(project.extra["androidStudioPath"] as String))
         autoReloadPlugins.set(true)
     }
 }
